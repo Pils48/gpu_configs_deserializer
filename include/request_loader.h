@@ -13,11 +13,11 @@ using json = nlohmann::basic_json<>;
 
 enum ObjectType
 {
-    FREEZED,
+    STATIC,
     ACTIVE
 };
 
-using AllowedCollisions = std::unordered_map<std::string, std::string>;
+using AllowedCollisions = std::vector<std::pair<std::string, std::string>>;
 
 struct Point
 {

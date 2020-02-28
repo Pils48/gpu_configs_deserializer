@@ -83,8 +83,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="963a5d4f-0d2e-4766-9708-8d9ab90f1940" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/json_deserializer.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/json_deserializer.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/json_deserializer.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/json_deserializer.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/json_deserializer.dir/src/request_loader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/json_deserializer.dir/src/request_loader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/request_loader.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/request_loader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json" beforeDir="false" afterPath="$PROJECT_DIR$/json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/json/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/json/test/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/json/test/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json_deserializer" beforeDir="false" afterPath="$PROJECT_DIR$/json_deserializer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/test_request.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/test_request.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/request_loader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/request_loader.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +114,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/json" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YOCKuTusbzEh9Wb6Sow6M1I6aW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -572,7 +583,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582804193466</updated>
       <workItem from="1582804196611" duration="12632000" />
-      <workItem from="1582895913256" duration="5975000" />
+      <workItem from="1582895913256" duration="13225000" />
     </task>
     <servers />
   </component>
@@ -584,45 +595,45 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582902728152" />
-    <state width="1809" height="296" key="GridCell.Tab.0.bottom" timestamp="1582902789030">
+    <state width="1809" height="365" key="GridCell.Tab.0.bottom" timestamp="1582913739997">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582902789030" />
+    <state width="1809" height="365" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582913739997" />
     <state width="1809" height="365" key="GridCell.Tab.0.bottom/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471961" />
-    <state width="1809" height="296" key="GridCell.Tab.0.center" timestamp="1582902789030">
+    <state width="1809" height="365" key="GridCell.Tab.0.center" timestamp="1582913739997">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582902789030" />
+    <state width="1809" height="365" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582913739997" />
     <state width="1809" height="365" key="GridCell.Tab.0.center/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471960" />
-    <state width="1809" height="296" key="GridCell.Tab.0.left" timestamp="1582902789030">
+    <state width="1809" height="365" key="GridCell.Tab.0.left" timestamp="1582913739997">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582902789030" />
+    <state width="1809" height="365" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582913739997" />
     <state width="1809" height="365" key="GridCell.Tab.0.left/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471959" />
-    <state width="1809" height="296" key="GridCell.Tab.0.right" timestamp="1582902789030">
+    <state width="1809" height="365" key="GridCell.Tab.0.right" timestamp="1582913739997">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="296" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582902789030" />
+    <state width="1809" height="365" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582913739997" />
     <state width="1809" height="365" key="GridCell.Tab.0.right/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471961" />
-    <state width="1809" height="365" key="GridCell.Tab.1.bottom" timestamp="1582897088764">
+    <state width="1809" height="365" key="GridCell.Tab.1.bottom" timestamp="1582913740307">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="365" key="GridCell.Tab.1.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582897088764" />
+    <state width="1809" height="365" key="GridCell.Tab.1.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582913740307" />
     <state width="1809" height="365" key="GridCell.Tab.1.bottom/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471962" />
-    <state width="1809" height="365" key="GridCell.Tab.1.center" timestamp="1582897088763">
+    <state width="1809" height="365" key="GridCell.Tab.1.center" timestamp="1582913740307">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="365" key="GridCell.Tab.1.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582897088763" />
+    <state width="1809" height="365" key="GridCell.Tab.1.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582913740307" />
     <state width="1809" height="365" key="GridCell.Tab.1.center/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471961" />
-    <state width="1809" height="365" key="GridCell.Tab.1.left" timestamp="1582897088763">
+    <state width="1809" height="365" key="GridCell.Tab.1.left" timestamp="1582913740307">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="365" key="GridCell.Tab.1.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582897088763" />
+    <state width="1809" height="365" key="GridCell.Tab.1.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582913740307" />
     <state width="1809" height="365" key="GridCell.Tab.1.left/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471961" />
-    <state width="1809" height="365" key="GridCell.Tab.1.right" timestamp="1582897088764">
+    <state width="1809" height="365" key="GridCell.Tab.1.right" timestamp="1582913740307">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1809" height="365" key="GridCell.Tab.1.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582897088764" />
+    <state width="1809" height="365" key="GridCell.Tab.1.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582913740307" />
     <state width="1809" height="365" key="GridCell.Tab.1.right/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471961" />
     <state x="486" y="174" key="SettingsEditor" timestamp="1582804325747">
       <screen x="65" y="24" width="1855" height="1056" />
@@ -632,10 +643,19 @@
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="654" y="381" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1582804204626" />
-    <state x="765" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582805221036">
-      <screen x="65" y="24" width="1855" height="1056" />
+    <state x="2645" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582905226192">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2645" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582905226192" />
     <state x="765" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/65.24.1855.1056@65.24.1855.1056" timestamp="1582805221036" />
+    <state x="2559" y="104" width="707" height="867" key="find.popup" timestamp="1582913672596">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2559" y="104" width="707" height="867" key="find.popup/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582913672596" />
+    <state x="2631" y="183" key="refactoring.ChangeSignatureDialog" timestamp="1582903576056">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2631" y="183" key="refactoring.ChangeSignatureDialog/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582903576056" />
     <state x="2575" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1582901725844">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -645,9 +665,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/request_loader.cpp</url>
-          <line>48</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/src/main.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

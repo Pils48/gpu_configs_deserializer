@@ -2,14 +2,14 @@
   "collision_objects": [
     {
       "id": "cube",
-      "mesh_file": "gde-to/tam",
-      "allowed_collision": false,
+      "mesh_file": "any/path/u/want",
+      "allow_collision": false,
       "type": "active"
     },
     {
       "id": "calibration_object",
-      "mesh_file": "gde-to/tam",
-      "allowed_collision": false,
+      "mesh_file": "any/path/u/want",
+      "allow_collision": false,
       "type": "static"
     }
   ],
@@ -19,7 +19,7 @@
   ],
   "scenes": [
     {
-      "c_objs": [
+      "scene_objects": [
         {
           "id": "cube",
           "origin": [
@@ -52,7 +52,7 @@
       "collision_result": true
     },
     {
-      "c_objs": [
+      "scene_objects": [
         {
           "id": "cube",
           "origin": [

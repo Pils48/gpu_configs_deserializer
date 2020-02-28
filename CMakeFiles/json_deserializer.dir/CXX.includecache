@@ -354,3 +354,9 @@ iostream
 ../include/request_loader.h
 /home/nikita/CLionProjects/json_deserializer/include/request_loader.h
 
+/home/nikita/CLionProjects/json_deserializer/src/request_loader.cpp
+fstream
+-
+../include/request_loader.h
+/home/nikita/CLionProjects/json_deserializer/include/request_loader.h
+
