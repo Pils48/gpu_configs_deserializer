@@ -1,0 +1,74 @@
+{
+  "collision_objects": [
+    {
+      "id": "cube",
+      "mesh_file": "gde-to/tam",
+      "allowed_collision": false,
+      "type": "active"
+    },
+    {
+      "id": "calibration_object",
+      "mesh_file": "gde-to/tam",
+      "allowed_collision": false,
+      "type": "static"
+    }
+  ],
+  "allowed_pairs": [
+    ["cube", "any_calibration_obj"],
+    ["cube", "any_link"]
+  ],
+  "scenes": [
+    {
+      "c_objs": [
+        {
+          "id": "cube",
+          "origin": [
+            -0.2272780303156755,
+            15.36948115205112,
+            1.1424471318252423
+          ],
+          "quaternion": [
+            3.0894401275819305,
+            0.4637316931401686,
+            -2.952884295828878,
+            -2.952884295828878
+          ]
+        },
+        {
+          "id": "calibration_object",
+          "origin": [
+            -0.2272780303156755,
+            15.36948115205112,
+            1.1424471318252423
+          ],
+          "quaternion": [
+            3.0894401275819305,
+            0.4637316931401686,
+            -2.952884295828878,
+            -2.952884295828878
+          ]
+        }
+      ],
+      "collision_result": true
+    },
+    {
+      "c_objs": [
+        {
+          "id": "cube",
+          "origin": [
+            -0.2272780303156755,
+            15.36948115205112,
+            1.1424471318252423
+          ],
+          "quaternion": [
+            3.0894401275819305,
+            0.4637316931401686,
+            -2.952884295828878,
+            -2.952884295828878
+          ]
+        }
+      ],
+      "collision_result": false
+    }
+  ]
+}

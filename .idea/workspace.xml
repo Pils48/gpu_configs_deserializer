@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="json_deserializer" targetName="test-msgpack" />
+      <config projectName="json_deserializer" targetName="test-allocator" />
+      <config projectName="json_deserializer" targetName="test-bson" />
+      <config projectName="json_deserializer" targetName="test-deserialization" />
+      <config projectName="json_deserializer" targetName="test-large_json" />
+      <config projectName="json_deserializer" targetName="json_deserializer" />
+      <config projectName="json_deserializer" targetName="test-pointer_access" />
+      <config projectName="json_deserializer" targetName="ContinuousCoverage" />
+      <config projectName="json_deserializer" targetName="test-unicode" />
+      <config projectName="json_deserializer" targetName="test-json_pointer" />
+      <config projectName="json_deserializer" targetName="NightlyTest" />
+      <config projectName="json_deserializer" targetName="test-wstring" />
+      <config projectName="json_deserializer" targetName="test-cbor" />
+      <config projectName="json_deserializer" targetName="test-comparison" />
+      <config projectName="json_deserializer" targetName="test-class_parser" />
+      <config projectName="json_deserializer" targetName="test-to_chars" />
+      <config projectName="json_deserializer" targetName="ExperimentalUpdate" />
+      <config projectName="json_deserializer" targetName="ExperimentalTest" />
+      <config projectName="json_deserializer" targetName="test-serialization" />
+      <config projectName="json_deserializer" targetName="NightlyUpdate" />
+      <config projectName="json_deserializer" targetName="test-meta" />
+      <config projectName="json_deserializer" targetName="ContinuousStart" />
+      <config projectName="json_deserializer" targetName="test-alt-string" />
+      <config projectName="json_deserializer" targetName="NightlyConfigure" />
+      <config projectName="json_deserializer" targetName="ContinuousBuild" />
+      <config projectName="json_deserializer" targetName="NightlyMemCheck" />
+      <config projectName="json_deserializer" targetName="test-class_lexer" />
+      <config projectName="json_deserializer" targetName="ExperimentalMemCheck" />
+      <config projectName="json_deserializer" targetName="ContinuousUpdate" />
+      <config projectName="json_deserializer" targetName="test-class_const_iterator" />
+      <config projectName="json_deserializer" targetName="test-readme" />
+      <config projectName="json_deserializer" targetName="test-constructor1" />
+      <config projectName="json_deserializer" targetName="test-constructor2" />
+      <config projectName="json_deserializer" targetName="test-merge_patch" />
+      <config projectName="json_deserializer" targetName="test-reference_access" />
+      <config projectName="json_deserializer" targetName="NightlyMemoryCheck" />
+      <config projectName="json_deserializer" targetName="NightlyStart" />
+      <config projectName="json_deserializer" targetName="test-regression" />
+      <config projectName="json_deserializer" targetName="ContinuousMemCheck" />
+      <config projectName="json_deserializer" targetName="ContinuousSubmit" />
+      <config projectName="json_deserializer" targetName="ContinuousTest" />
+      <config projectName="json_deserializer" targetName="test-json_patch" />
+      <config projectName="json_deserializer" targetName="test-inspection" />
+      <config projectName="json_deserializer" targetName="ExperimentalCoverage" />
+      <config projectName="json_deserializer" targetName="ExperimentalConfigure" />
+      <config projectName="json_deserializer" targetName="test-capacity" />
+      <config projectName="json_deserializer" targetName="ExperimentalBuild" />
+      <config projectName="json_deserializer" targetName="test-items" />
+      <config projectName="json_deserializer" targetName="test-testsuites" />
+      <config projectName="json_deserializer" targetName="test-iterators1" />
+      <config projectName="json_deserializer" targetName="ContinuousConfigure" />
+      <config projectName="json_deserializer" targetName="test-iterators2" />
+      <config projectName="json_deserializer" targetName="Continuous" />
+      <config projectName="json_deserializer" targetName="Nightly" />
+      <config projectName="json_deserializer" targetName="NightlySubmit" />
+      <config projectName="json_deserializer" targetName="ExperimentalStart" />
+      <config projectName="json_deserializer" targetName="NightlyCoverage" />
+      <config projectName="json_deserializer" targetName="test-modifiers" />
+      <config projectName="json_deserializer" targetName="ExperimentalSubmit" />
+      <config projectName="json_deserializer" targetName="Experimental" />
+      <config projectName="json_deserializer" targetName="test-element_access2" />
+      <config projectName="json_deserializer" targetName="test-noexcept" />
+      <config projectName="json_deserializer" targetName="test-class_iterator" />
+      <config projectName="json_deserializer" targetName="test-element_access1" />
+      <config projectName="json_deserializer" targetName="test-algorithms" />
+      <config projectName="json_deserializer" targetName="test-convenience" />
+      <config projectName="json_deserializer" targetName="test-udt" />
+      <config projectName="json_deserializer" targetName="NightlyBuild" />
+      <config projectName="json_deserializer" targetName="doctest_main" />
+      <config projectName="json_deserializer" targetName="test-ubjson" />
+      <config projectName="json_deserializer" targetName="test-conversions" />
+      <config projectName="json_deserializer" targetName="test-concepts" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="963a5d4f-0d2e-4766-9708-8d9ab90f1940" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/json/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/json/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/test/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/json/test/Makefile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/json" />
+  </component>
+  <component name="ProjectId" id="1YOCKuTusbzEh9Wb6Sow6M1I6aW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.json_deserializer">
+    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ContinuousBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ContinuousConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ContinuousCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ContinuousMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ContinuousStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ContinuousStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ContinuousSubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ContinuousTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ContinuousTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ContinuousUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ExperimentalBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ExperimentalConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ExperimentalCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ExperimentalMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ExperimentalStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ExperimentalSubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ExperimentalTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="ExperimentalUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="NightlyBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="NightlyBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="NightlyConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="NightlyCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="NightlyMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="NightlyMemoryCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="NightlyStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="NightlyStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="NightlySubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="NightlySubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="NightlyTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="NightlyTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="NightlyUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doctest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="doctest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="json_deserializer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="json_deserializer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="json_deserializer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-algorithms" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-algorithms" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-algorithms">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-allocator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-allocator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-allocator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-alt-string" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-alt-string" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-alt-string">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-bson" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-bson" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-bson">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-capacity" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-capacity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-capacity">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-cbor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-cbor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-cbor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-class_const_iterator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-class_const_iterator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-class_const_iterator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-class_iterator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-class_iterator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-class_iterator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-class_lexer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-class_lexer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-class_lexer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-class_parser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-class_parser" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-class_parser">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-comparison" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-comparison" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-comparison">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-concepts" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-concepts" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-concepts">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-constructor1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-constructor1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-constructor1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-constructor2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-constructor2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-constructor2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-convenience" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-convenience" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-convenience">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-conversions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-conversions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-conversions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-deserialization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-deserialization" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-deserialization">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-element_access1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-element_access1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-element_access1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-element_access2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-element_access2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-element_access2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-inspection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-inspection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-inspection">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-items" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-items" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-items">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-iterators1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-iterators1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-iterators1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-iterators2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-iterators2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-iterators2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-json_patch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-json_patch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-json_patch">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-json_pointer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-json_pointer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-json_pointer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-large_json" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-large_json" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-large_json">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-merge_patch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-merge_patch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-merge_patch">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-meta" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-meta" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-meta">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-modifiers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-modifiers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-modifiers">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-msgpack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-msgpack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-msgpack">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-noexcept" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-noexcept" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-noexcept">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-pointer_access" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-pointer_access" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-pointer_access">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-readme" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-readme" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-readme">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-reference_access" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-reference_access" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-reference_access">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-regression" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-regression" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-regression">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-serialization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-serialization" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-serialization">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-testsuites" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-testsuites" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-testsuites">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-to_chars" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-to_chars" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-to_chars">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-ubjson" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-ubjson" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-ubjson">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-udt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-udt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-udt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-unicode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-unicode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-unicode">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-wstring" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="json_deserializer" TARGET_NAME="test-wstring" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="json_deserializer" RUN_TARGET_NAME="test-wstring">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.json_deserializer" />
+      <item itemvalue="CMake Application.Continuous" />
+      <item itemvalue="CMake Application.ContinuousBuild" />
+      <item itemvalue="CMake Application.ContinuousConfigure" />
+      <item itemvalue="CMake Application.ContinuousCoverage" />
+      <item itemvalue="CMake Application.ContinuousMemCheck" />
+      <item itemvalue="CMake Application.ContinuousStart" />
+      <item itemvalue="CMake Application.ContinuousSubmit" />
+      <item itemvalue="CMake Application.ContinuousTest" />
+      <item itemvalue="CMake Application.ContinuousUpdate" />
+      <item itemvalue="CMake Application.Experimental" />
+      <item itemvalue="CMake Application.ExperimentalBuild" />
+      <item itemvalue="CMake Application.ExperimentalConfigure" />
+      <item itemvalue="CMake Application.ExperimentalCoverage" />
+      <item itemvalue="CMake Application.ExperimentalMemCheck" />
+      <item itemvalue="CMake Application.ExperimentalStart" />
+      <item itemvalue="CMake Application.ExperimentalSubmit" />
+      <item itemvalue="CMake Application.ExperimentalTest" />
+      <item itemvalue="CMake Application.ExperimentalUpdate" />
+      <item itemvalue="CMake Application.Nightly" />
+      <item itemvalue="CMake Application.NightlyBuild" />
+      <item itemvalue="CMake Application.NightlyConfigure" />
+      <item itemvalue="CMake Application.NightlyCoverage" />
+      <item itemvalue="CMake Application.NightlyMemCheck" />
+      <item itemvalue="CMake Application.NightlyMemoryCheck" />
+      <item itemvalue="CMake Application.NightlyStart" />
+      <item itemvalue="CMake Application.NightlySubmit" />
+      <item itemvalue="CMake Application.NightlyTest" />
+      <item itemvalue="CMake Application.NightlyUpdate" />
+      <item itemvalue="CMake Application.doctest_main" />
+      <item itemvalue="CMake Application.test-algorithms" />
+      <item itemvalue="CMake Application.test-allocator" />
+      <item itemvalue="CMake Application.test-alt-string" />
+      <item itemvalue="CMake Application.test-bson" />
+      <item itemvalue="CMake Application.test-capacity" />
+      <item itemvalue="CMake Application.test-cbor" />
+      <item itemvalue="CMake Application.test-class_const_iterator" />
+      <item itemvalue="CMake Application.test-class_iterator" />
+      <item itemvalue="CMake Application.test-class_lexer" />
+      <item itemvalue="CMake Application.test-class_parser" />
+      <item itemvalue="CMake Application.test-comparison" />
+      <item itemvalue="CMake Application.test-concepts" />
+      <item itemvalue="CMake Application.test-constructor1" />
+      <item itemvalue="CMake Application.test-constructor2" />
+      <item itemvalue="CMake Application.test-convenience" />
+      <item itemvalue="CMake Application.test-conversions" />
+      <item itemvalue="CMake Application.test-deserialization" />
+      <item itemvalue="CMake Application.test-element_access1" />
+      <item itemvalue="CMake Application.test-element_access2" />
+      <item itemvalue="CMake Application.test-inspection" />
+      <item itemvalue="CMake Application.test-items" />
+      <item itemvalue="CMake Application.test-iterators1" />
+      <item itemvalue="CMake Application.test-iterators2" />
+      <item itemvalue="CMake Application.test-json_patch" />
+      <item itemvalue="CMake Application.test-json_pointer" />
+      <item itemvalue="CMake Application.test-large_json" />
+      <item itemvalue="CMake Application.test-merge_patch" />
+      <item itemvalue="CMake Application.test-meta" />
+      <item itemvalue="CMake Application.test-modifiers" />
+      <item itemvalue="CMake Application.test-msgpack" />
+      <item itemvalue="CMake Application.test-noexcept" />
+      <item itemvalue="CMake Application.test-pointer_access" />
+      <item itemvalue="CMake Application.test-readme" />
+      <item itemvalue="CMake Application.test-reference_access" />
+      <item itemvalue="CMake Application.test-regression" />
+      <item itemvalue="CMake Application.test-serialization" />
+      <item itemvalue="CMake Application.test-testsuites" />
+      <item itemvalue="CMake Application.test-to_chars" />
+      <item itemvalue="CMake Application.test-ubjson" />
+      <item itemvalue="CMake Application.test-udt" />
+      <item itemvalue="CMake Application.test-unicode" />
+      <item itemvalue="CMake Application.test-wstring" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="963a5d4f-0d2e-4766-9708-8d9ab90f1940" name="Default Changelist" comment="" />
+      <created>1582804193466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582804193466</updated>
+      <workItem from="1582804196611" duration="12632000" />
+      <workItem from="1582895913256" duration="5975000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582902728152">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2377" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582902728152" />
+    <state width="1809" height="296" key="GridCell.Tab.0.bottom" timestamp="1582902789030">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582902789030" />
+    <state width="1809" height="365" key="GridCell.Tab.0.bottom/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471961" />
+    <state width="1809" height="296" key="GridCell.Tab.0.center" timestamp="1582902789030">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582902789030" />
+    <state width="1809" height="365" key="GridCell.Tab.0.center/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471960" />
+    <state width="1809" height="296" key="GridCell.Tab.0.left" timestamp="1582902789030">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582902789030" />
+    <state width="1809" height="365" key="GridCell.Tab.0.left/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471959" />
+    <state width="1809" height="296" key="GridCell.Tab.0.right" timestamp="1582902789030">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="296" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582902789030" />
+    <state width="1809" height="365" key="GridCell.Tab.0.right/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471961" />
+    <state width="1809" height="365" key="GridCell.Tab.1.bottom" timestamp="1582897088764">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="365" key="GridCell.Tab.1.bottom/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582897088764" />
+    <state width="1809" height="365" key="GridCell.Tab.1.bottom/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471962" />
+    <state width="1809" height="365" key="GridCell.Tab.1.center" timestamp="1582897088763">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="365" key="GridCell.Tab.1.center/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582897088763" />
+    <state width="1809" height="365" key="GridCell.Tab.1.center/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471961" />
+    <state width="1809" height="365" key="GridCell.Tab.1.left" timestamp="1582897088763">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="365" key="GridCell.Tab.1.left/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582897088763" />
+    <state width="1809" height="365" key="GridCell.Tab.1.left/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471961" />
+    <state width="1809" height="365" key="GridCell.Tab.1.right" timestamp="1582897088764">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1809" height="365" key="GridCell.Tab.1.right/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582897088764" />
+    <state width="1809" height="365" key="GridCell.Tab.1.right/65.24.3775.1056@65.24.3775.1056" timestamp="1582825471961" />
+    <state x="486" y="174" key="SettingsEditor" timestamp="1582804325747">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="486" y="174" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1582804325747" />
+    <state x="654" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1582804204626">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="654" y="381" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1582804204626" />
+    <state x="765" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582805221036">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="765" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/65.24.1855.1056@65.24.1855.1056" timestamp="1582805221036" />
+    <state x="2575" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1582901725844">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2575" y="236" width="672" height="678" key="search.everywhere.popup/65.24.1855.1056/1920.0.1920.1080@1920.0.1920.1080" timestamp="1582901725844" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/request_loader.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
