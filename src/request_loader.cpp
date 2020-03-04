@@ -5,8 +5,6 @@
 #include <fstream>
 #include "../include/request_loader.h"
 
-AllowedCollisions loadAllowedCollisions(const std::string &basicString);
-
 json readJson(const std::string &conf_path)
 {
     try
@@ -27,6 +25,20 @@ json readJson(const std::string &conf_path)
     {
         std::throw_with_nested(std::invalid_argument{ "json path: " + conf_path });
     }
+}
+
+TestResults loadResults(const std::string &conf_path)
+{
+    TestResults result;
+    const auto json_config = readJson(conf_path);
+    if (json_config.find("results") != json_config.end()) {
+        const auto test_results = json_config.at("results");
+        for (const auto &test_result : test_results)
+        {
+            result.push_back(test_result.get<bool>());
+        }
+    }
+    return result;
 }
 
 std::vector<Scene> loadScenes(const std::string &conf_path)
@@ -51,40 +63,55 @@ std::vector<Scene> loadScenes(const std::string &conf_path)
                 id = obj.at("id").get<std::string>();
                 scene.object_poses.emplace(std::make_pair(id, pose));
             }
-            scene.collision_result = scene.collision_result = obj.at("collision_result").get<bool>();
             result.push_back(scene);
         }
     }
     return result;
 }
 
-std::vector<collision_object> loadObjects(const std::string &conf_path)
+std::vector<CollisionObject> loadObjects(const std::string &conf_path)
 {
-    std::vector<collision_object> result;
+    std::vector<CollisionObject> result;
     const auto json_config = readJson(conf_path);
     if (json_config.find("collision_objects") != json_config.end())
     {
         const auto request_objs = json_config.at("collision_objects");
-        collision_object collision_object;
+        CollisionObject CollisionObject;
         for (const auto &obj : request_objs)
         {
-            collision_object.object_id = obj.at("id").get<std::string>();
-            collision_object.path_to_mesh = obj.at("mesh_file").get<std::string>();
-            collision_object.is_ignored = obj.at("allow_collision").get<bool>();
-            const std::string type_str = obj.at("type").get<std::string>();
-            if (type_str == "static")
-            {
-                collision_object.type = STATIC;
-            }
-            else if (type_str == "active")
-            {
-                collision_object.type = ACTIVE;
-            }
-            else
-            {
-                throw std::invalid_argument{"Undefined argument for field type could be active or static only!"};
-            }
-            result.push_back(collision_object);
+            CollisionObject.object_id = obj.at("id").get<std::string>();
+            CollisionObject.path_to_mesh = obj.at("mesh_file").get<std::string>();
+            result.push_back(CollisionObject);
+        }
+    }
+    return result;
+}
+
+FreezedObjects loadFreezedObjects(const std::string &conf_path)
+{
+    FreezedObjects result;
+    const auto json_config = readJson(conf_path);
+    if (json_config.find("freezed_objects") != json_config.end())
+    {
+        const auto objects = json_config.at("freezed_objects");
+        for (const auto &obj : objects)
+        {
+            result.push_back(obj.get<std::string>());
+        }
+    }
+    return result;
+}
+
+AllowedObjects loadAllowedCollisionObjects(const std::string &conf_path)
+{
+    AllowedObjects result;
+    const auto json_config = readJson(conf_path);
+    if (json_config.find("allowed_objects") != json_config.end())
+    {
+        const auto objects = json_config.at("allowed_objects");
+        for (const auto &obj : objects)
+        {
+            result.push_back(obj.get<std::string>());
         }
     }
     return result;
@@ -94,22 +121,25 @@ AllowedCollisions loadAllowedCollisionPairs(const std::string &conf_path)
 {
     AllowedCollisions result;
     const auto json_config = readJson(conf_path);
-    if (json_config.find("allowed_pairs") != json_config.end()) {
+    if (json_config.find("allowed_pairs") != json_config.end())
+    {
         const auto pairs = json_config.at("allowed_pairs");
         for (const auto &pair : pairs)
         {
-            auto str_pair = pair.get<std::array<std::string, 2>>();
-            result.push_back(std::make_pair(str_pair[0], str_pair[1]));
+            result.push_back(pair.get<std::array<std::string, 2>>());
         }
     }
     return result;
 }
 
-Request loadRequestFromJson(const std::string &conf_path)
+TestData loadTestDataFromJson(const std::string &conf_path)
 {
-    Request res_request;
+    TestData res_request;
+    res_request.allowed_objects = loadAllowedCollisionObjects(conf_path);
     res_request.collision_objects = loadObjects(conf_path);
     res_request.test_scenes = loadScenes(conf_path);
-    res_request.allowedCollisions = loadAllowedCollisionPairs(conf_path);
+    res_request.allowed_collisions = loadAllowedCollisionPairs(conf_path);
+    res_request.results = loadResults(conf_path);
+    res_request.freezed_objects = loadFreezedObjects(conf_path);
     return res_request;
 }

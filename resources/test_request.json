@@ -2,20 +2,22 @@
   "collision_objects": [
     {
       "id": "cube",
-      "mesh_file": "any/path/u/want",
-      "allow_collision": false,
-      "type": "active"
+      "mesh_file": "any/path/u/want"
     },
     {
       "id": "calibration_object",
-      "mesh_file": "any/path/u/want",
-      "allow_collision": false,
-      "type": "static"
+      "mesh_file": "any/path/u/want"
     }
   ],
   "allowed_pairs": [
     ["cube", "any_calibration_obj"],
     ["cube", "any_link"]
+  ],
+  "allowed_objects": [
+    "cube"
+  ],
+  "freezed_objects": [
+    "cube"
   ],
   "scenes": [
     {
@@ -48,8 +50,7 @@
             -2.952884295828878
           ]
         }
-      ],
-      "collision_result": true
+      ]
     },
     {
       "scene_objects": [
@@ -67,8 +68,11 @@
             -2.952884295828878
           ]
         }
-      ],
-      "collision_result": false
+      ]
     }
+  ],
+  "results": [
+    false,
+    true
   ]
 }

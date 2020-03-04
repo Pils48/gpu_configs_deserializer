@@ -11,13 +11,10 @@
 
 using json = nlohmann::basic_json<>;
 
-enum ObjectType
-{
-    STATIC,
-    ACTIVE
-};
-
-using AllowedCollisions = std::vector<std::pair<std::string, std::string>>;
+using AllowedCollisions = std::vector<std::array<std::string , 2>>;
+using AllowedObjects = std::vector<std::string>;
+using FreezedObjects = std::vector<std::string>;
+using TestResults = std::vector<bool>;
 
 struct Point
 {
@@ -35,27 +32,41 @@ struct Pose
     Quaternion orientation;
 };
 
-struct collision_object
+struct CollisionObject
 {
     std::string object_id;
     std::string path_to_mesh;
-    bool is_ignored;
-    ObjectType type;
 };
 
 struct Scene
 {
     std::unordered_map<std::string, Pose> object_poses;
-    bool collision_result;
 };
 
-struct Request
+struct TestData
 {
-    AllowedCollisions allowedCollisions;
-    std::vector<collision_object> collision_objects;
+    TestResults results;
+    AllowedObjects allowed_objects;
+    FreezedObjects freezed_objects;
+    AllowedCollisions allowed_collisions;
+    std::vector<CollisionObject> collision_objects;
     std::vector<Scene> test_scenes;
 };
 
-Request loadRequestFromJson(const std::string &conf_path);
+AllowedCollisions loadAllowedCollisions(const std::string &conf_path);
+
+TestResults loadResults(const std::string &conf_path);
+
+std::vector<Scene> loadScenes(const std::string &conf_path);
+
+std::vector<CollisionObject> loadObjects(const std::string &conf_path);
+
+FreezedObjects loadFreezedObjects(const std::string &conf_path);
+
+AllowedObjects loadAllowedCollisionObjects(const std::string &conf_path);
+
+AllowedCollisions loadAllowedCollisionPairs(const std::string &conf_path);
+
+TestData loadTestDataFromJson(const std::string &conf_path);
 
 #endif //JSON_DESERIALIZER_REQUEST_LOADER_H
