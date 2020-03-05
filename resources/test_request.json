@@ -10,8 +10,14 @@
     }
   ],
   "allowed_pairs": [
-    ["cube", "any_calibration_obj"],
-    ["cube", "any_link"]
+    [
+      "cube",
+      "any_calibration_obj"
+    ],
+    [
+      "cube",
+      "any_link"
+    ]
   ],
   "allowed_objects": [
     "cube"

@@ -9,12 +9,14 @@
 #ifndef JSON_DESERIALIZER_REQUEST_LOADER_H
 #define JSON_DESERIALIZER_REQUEST_LOADER_H
 
+using namespace std;
+
 using json = nlohmann::basic_json<>;
 
-using AllowedCollisions = std::vector<std::array<std::string , 2>>;
-using AllowedObjects = std::vector<std::string>;
-using FreezedObjects = std::vector<std::string>;
-using TestResults = std::vector<bool>;
+using AllowedCollisions = vector<array<string , 2>>;
+using AllowedObjects = vector<string>;
+using FreezedObjects = vector<string>;
+using TestResults = vector<bool>;
 
 struct Point
 {
@@ -34,13 +36,19 @@ struct Pose
 
 struct CollisionObject
 {
-    std::string object_id;
-    std::string path_to_mesh;
+    string object_id;
+    string path_to_mesh;
+};
+
+struct SceneObjectInstance
+{
+    string object_id;
+    Pose pose;
 };
 
 struct Scene
 {
-    std::unordered_map<std::string, Pose> object_poses;
+    vector<SceneObjectInstance> object_poses;
 };
 
 struct TestData
@@ -49,24 +57,20 @@ struct TestData
     AllowedObjects allowed_objects;
     FreezedObjects freezed_objects;
     AllowedCollisions allowed_collisions;
-    std::vector<CollisionObject> collision_objects;
-    std::vector<Scene> test_scenes;
+    vector<CollisionObject> collision_objects;
+    vector<Scene> test_scenes;
 };
 
-AllowedCollisions loadAllowedCollisions(const std::string &conf_path);
+void from_json(const json &j, Quaternion &quaternion);
 
-TestResults loadResults(const std::string &conf_path);
+void from_json(const json &j, Point &point);
 
-std::vector<Scene> loadScenes(const std::string &conf_path);
+void from_json(const json &j, SceneObjectInstance &scene_object);
 
-std::vector<CollisionObject> loadObjects(const std::string &conf_path);
+void from_json(const json &j, Scene &scene);
 
-FreezedObjects loadFreezedObjects(const std::string &conf_path);
+void from_json(const json &j, CollisionObject &collision_object);
 
-AllowedObjects loadAllowedCollisionObjects(const std::string &conf_path);
-
-AllowedCollisions loadAllowedCollisionPairs(const std::string &conf_path);
-
-TestData loadTestDataFromJson(const std::string &conf_path);
+TestData loadTestDataFromJson(const string &conf_path);
 
 #endif //JSON_DESERIALIZER_REQUEST_LOADER_H
