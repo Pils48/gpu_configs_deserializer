@@ -83,6 +83,4 @@ void from_json(const json &j, Scene &scene);
 
 void from_json(const json &j, CollisionObject &collision_object);
 
-TestData loadTestDataFromJson(const string &conf_path);
-
 #endif //JSON_DESERIALIZER_REQUEST_LOADER_H

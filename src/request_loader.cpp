@@ -9,7 +9,7 @@ void from_json(const json & j, TestResult &result)
 {
     result = {
             j.at("collision").get<bool>(),
-            j.at("colliding_objects").get<CollidingPairs>(),
+            j.value<CollidingPairs>("colliding_objects", {}),
     };
 }
 

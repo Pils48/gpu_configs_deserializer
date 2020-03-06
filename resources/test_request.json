@@ -86,9 +86,7 @@
       ]
     },
     {
-      "collision": false,
-      "colliding_objects" : [
-      ]
+      "collision": false
     }
   ]
 }
