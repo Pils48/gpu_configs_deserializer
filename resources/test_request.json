@@ -78,7 +78,17 @@
     }
   ],
   "results": [
-    false,
-    true
+    {
+     "collision": true,
+     "colliding_objects": [
+        ["cube", "calibration_item"],
+        ["link", "cude"]
+      ]
+    },
+    {
+      "collision": false,
+      "colliding_objects" : [
+      ]
+    }
   ]
 }

@@ -5,6 +5,25 @@
 #include <fstream>
 #include "../include/request_loader.h"
 
+void from_json(const json & j, TestResult &result)
+{
+    result = {
+            j.at("collision").get<bool>(),
+            j.at("colliding_objects").get<CollidingPairs>(),
+    };
+}
+
+void from_json(const json &j, TestData &test_data)
+{
+    test_data = {
+            j.at("results").get<vector<TestResult>>(),
+            j.value<vector<string>>("allowed_objects", {}),
+            j.value<vector<string>>("freezed_objects", {}),
+            j.value<vector<array<string, 2>>>("allowed_pairs", {}),
+            j.at("collision_objects").get<vector<CollisionObject>>(),
+            j.at("scenes").get<vector<Scene>>()};
+};
+
 void from_json(const json &j, Quaternion &quaternion) {
     const auto coefs = j.get<array<double, 4>>();
     quaternion = {coefs[0], coefs[1], coefs[2], coefs[3]};
@@ -52,12 +71,3 @@ json readJson(const string &conf_path) {
     }
 }
 
-TestData loadTestDataFromJson(const string &conf_path) {
-    const auto json_conf = readJson(conf_path);
-    TestData td = {json_conf.at("results").get<vector<bool>>(),
-            json_conf.value<vector<string>>("allowed_objects", {}),
-            json_conf.value<vector<string>>("freezed_objects", {}),
-            json_conf.value<vector<array<string, 2>>>("allowed_pairs", {}),
-            json_conf.at("collision_objects").get<vector<CollisionObject>>(),
-            json_conf.at("scenes").get<vector<Scene>>()};
-}

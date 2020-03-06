@@ -16,7 +16,7 @@ using json = nlohmann::basic_json<>;
 using AllowedCollisions = vector<array<string , 2>>;
 using AllowedObjects = vector<string>;
 using FreezedObjects = vector<string>;
-using TestResults = vector<bool>;
+using CollidingPairs = vector<array<string, 2>>;
 
 struct Point
 {
@@ -51,15 +51,27 @@ struct Scene
     vector<SceneObjectInstance> object_poses;
 };
 
+struct TestResult
+{
+    bool collision;
+    CollidingPairs colliding_objects;
+};
+
 struct TestData
 {
-    TestResults results;
+    vector<TestResult> results;
     AllowedObjects allowed_objects;
     FreezedObjects freezed_objects;
     AllowedCollisions allowed_collisions;
     vector<CollisionObject> collision_objects;
     vector<Scene> test_scenes;
 };
+
+json readJson(const string &conf_path);
+
+void from_json(const json & j, TestResult &result);
+
+void from_json(const json &j, TestData &test_data);
 
 void from_json(const json &j, Quaternion &quaternion);
 
